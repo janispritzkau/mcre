@@ -1,6 +1,5 @@
 import { Client, PacketReader, PacketWriter, Packet, ServerConnection } from "mcproto"
 import * as nbt from "nbt-ts"
-import { SSL_OP_SSLEAY_080_CLIENT_DH_BUG } from "constants"
 
 interface PlayerListItem {
     name: string
